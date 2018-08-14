@@ -25,7 +25,7 @@ jobs:
         
       # run tests!
       - run: 
-        command: 'npm test'
-        name: run tests
+          command: 'npm test'
+          name: run tests
 
 
