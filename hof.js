@@ -33,4 +33,4 @@ function checkLang(obj) {
     return true
   }
 }
-var polyglotPeople = people.filter()
+var polyglotPeople = people.filter(checkLang)
