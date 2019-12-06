@@ -20,7 +20,23 @@ var people = [
 // person in the `people` array. Assign the returned array to a variable
 // called `peopleNames`.
 // Type your solution immediately below this line:
-
+var people = [
+  {
+    name: "Layla",
+    age: 27,
+    knownLanguages: 3
+  }, {
+    name: "Keanu",
+    age: 54,
+    knownLanguages: 1
+  }, {
+    name: "Jasmine",
+    age: 35,
+    knownLanguages: 2
+  }
+];
+var people = [Layla, keanu, Jasmine]
+var peopleNames = people.map(Math.sqrt)
 
 
 // #2: Use the `filter` array method to create a new, filtered array containing only
