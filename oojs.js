@@ -6,6 +6,19 @@
 // - an `addSong` method that adds a song (string) to the `songs` array
 // Type your solution immediately below this line:
 
+class Playlist {
+  constructor(title, songs) {
+    this.title = title
+    this.songs = songs
+    this.addSongs()
+  }
+  addSongs(string) {
+    console.log("Added this song : " + string)
+
+  }
+
+}
+
 
 
 
@@ -15,11 +28,12 @@
 // Type your solution immediately below this line:
 
 
-
+var myPlayList = new Playlist("Abg", "lalala")
+console.log(myPlayList)
 
 
 // NOTE: THE CODE BELOW IS FOR TESTING PURPOSES. DO NOT REMOVE OR ALTER.
-if(typeof Playlist !== 'undefined') {
+if (typeof Playlist !== 'undefined') {
   module.exports = {
     Playlist
   }
