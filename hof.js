@@ -34,8 +34,7 @@ console.log(peopleNames)
 // Type your solution immediately below this line:
 people.filter = (i) => {
     if (people.knownLanguages > 1) {
-    var polyglotPeople = [i]
-    return polyglotPeople
+    var polyglotPeople = []
+    console.log(polyglotPeople.push[i])
   }
 }
-console.log(i)
