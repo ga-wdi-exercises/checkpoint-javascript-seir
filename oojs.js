@@ -7,6 +7,17 @@
 // Type your solution immediately below this line:
 
 
+class Playlist{
+  constructor(title){
+    this.title = title
+    this.songs = [];
+  }
+
+  addSong(){
+    this.songs.push(this.title)
+    return this.songs
+  }
+}
 
 
 
@@ -15,7 +26,8 @@
 // Type your solution immediately below this line:
 
 
-
+var myPlaylist = new Playlist("Stairway to Heaven");
+myPlaylist.addSong()
 
 
 // NOTE: THE CODE BELOW IS FOR TESTING PURPOSES. DO NOT REMOVE OR ALTER.
